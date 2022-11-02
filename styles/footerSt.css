@@ -1,0 +1,19 @@
+footer .brandBox{
+  width: 250px;
+  height: 250px;
+}
+footer .brand{
+  width: 100%;
+}
+.txtSt{
+  color: rgb(108, 117, 125);
+  -webkit-transition: color 0.3s ease;
+  -o-transition: color 0.3s ease;
+  transition: color 0.3s ease;
+}
+.txtSt:hover{
+  color: rgb(242, 183, 5);
+}
+.copyr{
+  text-align: center;
+}

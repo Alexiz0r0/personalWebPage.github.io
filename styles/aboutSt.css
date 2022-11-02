@@ -1,0 +1,54 @@
+.aboutSection h2{
+  text-align: center;
+  position: relative;
+	padding: 0 0 10px;
+	margin-bottom: 10px;
+}
+.aboutSection h2:after{
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  height: 4px;
+  width: 50px;
+  border-radius: 2px;
+  background-color: rgb(242, 183, 5);
+}
+.aboutSection h5{
+  color: rgb(242, 203, 5);
+  text-align: center;
+}
+.contactBtnDiv{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.contactBtn{
+  outline: none;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 400;
+  color: rgb(242, 242, 242);
+  background-color: rgb(13, 13, 13);
+  padding: 7px;
+  margin: 15px 5px;
+  letter-spacing: 2px;
+  text-transform: capitalize;
+  box-shadow: 0 0 17px 0px rgba(0, 0, 0, 0.7);
+}
+.contactBtn:hover{
+  background-color: rgb(242, 203, 5);
+}
+.imgAbout{
+  height: 550px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.imgAbout img{
+  height: 100%;
+}

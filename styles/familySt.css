@@ -1,0 +1,41 @@
+.imgCircle{
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  background: #fceabb;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #f8b500, #fceabb);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #f8b500, #fceabb); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.imgCircle img{
+  height: 100%;
+}
+.infoFamily{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.familySec h2{
+  text-align: center;
+  position: relative;
+	padding: 0 0 10px;
+	margin-bottom: 10px;
+}
+.familySec h2:after{
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  height: 4px;
+  width: 50px;
+  border-radius: 2px;
+  background-color: rgb(242, 183, 5);
+}
+.familyName{
+  font-size: 1.4em;
+  font-weight: 600;
+}
+.familyName span{
+  color: rgb(242, 183, 5);
+}
